@@ -13,6 +13,7 @@
 		52F4B8661EED351C00BDB55E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8641EED351C00BDB55E /* Main.storyboard */; };
 		52F4B8681EED351C00BDB55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8671EED351C00BDB55E /* Assets.xcassets */; };
 		52F4B86B1EED351C00BDB55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F4B8691EED351C00BDB55E /* LaunchScreen.storyboard */; };
+		E71608511EED37E7007B8B06 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71608501EED37E7007B8B06 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		52F4B8671EED351C00BDB55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F4B86A1EED351C00BDB55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52F4B86C1EED351C00BDB55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E716084F1EED37E7007B8B06 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		E71608501EED37E7007B8B06 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		52F4B84F1EED351C00BDB55E = {
 			isa = PBXGroup;
 			children = (
+				E716084F1EED37E7007B8B06 /* MyViewController.h */,
+				E71608501EED37E7007B8B06 /* MyViewController.m */,
 				52F4B85A1EED351C00BDB55E /* Git_2_lesson */,
 				52F4B8591EED351C00BDB55E /* Products */,
 			);
@@ -152,6 +157,7 @@
 			files = (
 				52F4B8631EED351C00BDB55E /* ViewController.m in Sources */,
 				52F4B8601EED351C00BDB55E /* AppDelegate.m in Sources */,
+				E71608511EED37E7007B8B06 /* MyViewController.m in Sources */,
 				52F4B85D1EED351C00BDB55E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +315,7 @@
 				52F4B8711EED351C00BDB55E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
